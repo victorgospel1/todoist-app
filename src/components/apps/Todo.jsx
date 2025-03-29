@@ -68,7 +68,7 @@ function Todo() {
                   />
                   <button
                     onClick={() => handledeletion(task.id)}
-                    className="bg-red-500 text-white p-2 rounded-md"
+                    className="bg-red-700 text-white p-2 rounded-md"
                   >
                     Delete
                   </button>
