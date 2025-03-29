@@ -1,0 +1,23 @@
+.bird {
+  position: absolute;
+  top: 10%;
+  left: -100px;
+  width: 100px;
+  height: auto;
+  opacity: 0.9;
+  animation: fly-across 4s ease-in-out forwards;
+}
+
+@keyframes fly-across {
+  0% {
+    transform: translateX(-100px) translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100vw) translateY(-50px);
+    opacity: 0;
+  }
+}
